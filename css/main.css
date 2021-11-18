@@ -325,3 +325,84 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1vh;
+  padding: 15vh 0 25vh 0;
+  border-bottom: 1px solid black;
+}
+
+.contact-header {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #182d50;
+}
+
+form {
+  display: flex;
+  gap: 2vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#name,
+#email,
+#text {
+  width: 100%;
+}
+
+.label1,
+.label2,
+.label3 {
+  padding: 0 10vw;
+}
+
+#name,
+#email {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #d3d0cf;
+  height: 7vh;
+}
+
+#text {
+  background-color: cornsilk;
+  border: none;
+  padding-top: 2vh;
+  padding-left: 1vw;
+}
+
+.label4 {
+  display: flex;
+  justify-content: center;
+  padding: 2vh 0 5vh 0;
+
+  /* width: 131px;
+  height: 48px; */
+}
+
+#submit {
+  width: 131px;
+  height: 48px;
+  background: #ff6d04;
+  color: white;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/* #submit {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+} */
